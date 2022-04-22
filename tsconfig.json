@@ -1,0 +1,11 @@
+{
+  "ts-node": {
+    "include": ["**/*.ts"],
+    "compilerOptions": {
+      "types": ["jest"],
+      "isolatedModules": false,
+      "moduleResolution": "node",
+      "module": "CommonJS"
+    }
+  }
+}
